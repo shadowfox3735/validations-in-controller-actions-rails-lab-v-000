@@ -22,7 +22,7 @@ class AuthorsController < ApplicationController
       <% end %>
       </ul>
     </div>
-<% end %>
+    <% end %>
 
     redirect_to author_path(@author)
   end
